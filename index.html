@@ -3,52 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>BMI CALCULATER</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI CALCULATOR</title>
   </head>
   <body>
     <h3>Body Mass Index Calculator</h3>
-    <form class="form" id="form" onsubmit="return validateForm()">
-      <div class="row-one">
+    <form class="form" id="bmi-form" onsubmit="return validateForm()">
+      <div class="input-row">
         <input
           type="text"
           class="text-input"
-          id="age"
+          id="user-age"
           autocomplete="off"
           required
         />
-        <p class="text">Age</p>
-        <label class="container">
-          <input type="radio" name="radio" id="f" />
-          <p class="text">Female</p>
+        <p class="input-label">Age</p>
+        <label class="radio-container">
+          <input type="radio" name="gender" id="female" />
+          <p class="input-label">Female</p>
           <span class="checkmark"></span>
         </label>
-        <label class="container">
-          <input type="radio" name="radio" id="m" />
-          <p class="text">Male</p>
+        <label class="radio-container">
+          <input type="radio" name="gender" id="male" />
+          <p class="input-label">Male</p>
           <span class="checkmark"></span>
         </label>
       </div>
 
-      <div class="row-two">
+      <div class="input-row">
         <input
           type="text"
           class="text-input"
-          id="height"
+          id="user-height"
           autocomplete="off"
           required
         />
-        <p class="text">Height</p>
+        <p class="input-label">Height</p>
         <input
           type="text"
           class="text-input"
-          id="weight"
+          id="user-weight"
           autocomplete="off"
           required
         />
-        <p class="text">Weight</p>
+        <p class="input-label">Weight</p>
       </div>
-      <button type="button" id="submit">Submit</button>
+      <button type="submit" id="submit-button">Submit</button>
     </form>
+    <script src="app.js"></script>
   </body>
 </html>

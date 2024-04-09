@@ -23,7 +23,6 @@ body {
   margin: 20px auto;
   display: block;
   border: 1px solid #289df6;
-
   box-shadow: 0 0 40px 0 #ddd;
 }
 
@@ -33,11 +32,7 @@ body {
   transform: scale(1.02);
 }
 
-.row-one {
-  padding: 20px;
-}
-
-.row-two {
+.input-row {
   padding: 20px;
 }
 
@@ -60,7 +55,7 @@ body {
   background-color: #cbe7fd;
 }
 
-#submit {
+#submit-button {
   border: none;
   border-radius: 10px;
   height: 40px;
@@ -73,23 +68,16 @@ body {
   cursor: pointer;
 }
 
-#submit:hover {
+#submit-button:hover {
   background-color: #0a8ef2;
 }
 
-.text {
+.input-label {
   display: inline-block;
   margin: 5px 20px 5px 8px;
 }
 
-.row-one {
-  padding: 30px 20px 15px 20px;
-}
-.row-two {
-  padding: 15px 20px 30px 20px;
-}
-
-.container {
+.radio-container {
   display: inline-block;
   position: relative;
   padding-left: 2.2rem;
@@ -97,7 +85,7 @@ body {
   user-select: none;
 }
 
-.container input {
+.radio-container input {
   position: absolute;
   opacity: 0;
 }
@@ -112,11 +100,11 @@ body {
   border-radius: 50%;
 }
 
-.container:hover input ~ .checkmark {
+.radio-container:hover input ~ .checkmark {
   background-color: #cbe7fd;
 }
 
-.container input:checked ~ .checkmark {
+.radio-container input:checked ~ .checkmark {
   background-color: #289df6;
 }
 
@@ -154,11 +142,11 @@ h3 b {
   display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+.radio-container input:checked ~ .checkmark:after {
   display: block;
 }
 
-.container .checkmark:after {
+.radio-container .checkmark:after {
   left: 9px;
   top: 5px;
   width: 5px;
