@@ -18,6 +18,8 @@ To use this BMI calculator, follow these steps:
 ## Customization
 
 You can customize the BMI calculator by adjusting the styling in the `style.css` file and modifying the JavaScript code in the `app.js` file. Additionally, you can enhance the calculator by adding more features, such as saving previous calculations or providing additional health-related information.
+# Contributions
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 
 ## Technologies Used:
