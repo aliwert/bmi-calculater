@@ -1,3 +1,6 @@
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/zbetcheckin/Security_list)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 # BMI Calculator
 
 This project showcases an interactive BMI (Body Mass Index) calculator built using HTML, CSS, and JavaScript. It allows users to calculate their BMI based on their age, gender, height, and weight.
@@ -14,13 +17,9 @@ To use this BMI calculator, follow these steps:
 2. Input your age, select your gender, and enter your height and weight.
 3. Click the "Submit" button to calculate your BMI.
 4. View your BMI result and see which health category you fall into.
-
-
-## Contributions
+## 🛠️Technologies Used:
+- HTML
+- CSS
+- JavaScript
+## 👽Contributions
 - Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-
-## Technologies Used:
-- HTML<br>
-- CSS<br>
-- JavaScript<br>
